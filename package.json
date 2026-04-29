@@ -1,0 +1,19 @@
+{
+  "name": "note-pdf",
+  "version": "0.1.0",
+  "description": "通用 PDF 转知识库助手 — 自动检测新 PDF 并生成索引笔记",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild src/main.ts --bundle --external:obsidian --format=cjs --outfile=main.js --watch --sourcemap=inline",
+    "build": "esbuild src/main.ts --bundle --external:obsidian --format=cjs --outfile=main.js --minify"
+  },
+  "keywords": ["obsidian", "pdf", "ocr", "knowledge-base"],
+  "author": "NotePDF",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "latest",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}

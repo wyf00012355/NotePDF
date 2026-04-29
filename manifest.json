@@ -1,0 +1,10 @@
+{
+  "id": "note-pdf",
+  "name": "NotePDF",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "自动检测 PDF 文件并生成索引笔记，支持 OCR 文字提取与智能关联",
+  "author": "Yifan Wang",
+  "repo": "wyf00012355/NotePDF",
+  "isDesktopOnly": false
+}
